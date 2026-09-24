@@ -1,0 +1,11 @@
+SHEDRACK STYLE HOUSE — CLOUD STORAGE
+1. Open your Supabase project.
+2. Storage → create bucket: product-images
+3. Make the bucket Public if product images should be publicly viewable.
+4. Configure Storage policies for browser uploads.
+5. In the website open Cloud Product Storage.
+6. Enter Project URL + anon/public key.
+7. Connect Cloud.
+8. Upload product images.
+
+SECURITY: Never place a Supabase service_role key in this public website or GitHub repository. Use the anon/public key and proper Storage policies.
